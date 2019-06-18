@@ -1,4 +1,6 @@
-An example using the [`questionnaire`](https://github.com/kylebebak/questionnaire) module to collect gene symbols (and organisms) from the user (via command line) and then using NCBI's [eutils](https://www.ncbi.nlm.nih.gov/books/NBK25497/) to convert them to gene IDs.  More examples of how to use `questionnaire` can be found on the GitHub page under `examples`.
+An example using the [`questionnaire`](https://github.com/kylebebak/questionnaire) module to collect gene symbols (and organisms) from the user (via command line) and then using NCBI's [eutils](https://www.ncbi.nlm.nih.gov/books/NBK25497/) to convert them to gene IDs.  This example is a little contrived, but can be used as a starting point for more practical usage.
+
+More examples of how to use `questionnaire` can be found on the GitHub page under `examples`.
 
 # Installing
 Set up a virtual environment and install requirments.
@@ -19,3 +21,29 @@ python3 -m unittest test.py
 ```
 
 # Screenshots
+![](images/screenshot-common-01.png)
+
+Select organism
+
+![](images/screenshot-common-02.png)
+
+Select whether to select gene symbol as predefined.
+
+![](images/screenshot-predefined-01.png)
+
+![](images/screenshot-predefined-02.png)
+
+Select predefined genes
+
+![](images/screenshot-predefined-03.png)
+
+Output
+
+![](images/screenshot-predefined-04.png)
+
+If we had instead selected `user-defined`
+
+![](images/screenshot-user_defined-01.png)
+
+User enters custom gene symbols and then the output is printed.
+![](images/screenshot-user_defined-02.png)
