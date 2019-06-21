@@ -53,5 +53,7 @@ User enters custom gene symbols and then the output is printed.
 
 # To Do
 - You'll notice in my screenshots that the marker indicating selection is a boxed question mark incidating that it cannot display the proper symbol (which is '✔').  This seems to be a known issue when using WSL, but I'd like to look into it closer.
+
 https://github.com/microsoft/Terminal/issues/306
+
 https://github.com/microsoft/terminal/issues/190
